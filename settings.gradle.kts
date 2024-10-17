@@ -15,5 +15,6 @@ pluginManagement {
 
 rootProject.name = "tut2demo32"
 include("tut2demo32app")
+include("tut2demo32mod5")
 
 
