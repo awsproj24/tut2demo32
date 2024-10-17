@@ -23,6 +23,7 @@ dependencies {
     implementation(compose.desktop.currentOs)
 
     implementation(project(":tut2demo32mod5"))
+    implementation(project(":tut2demo32mod6"))
 }
 
 compose.desktop {

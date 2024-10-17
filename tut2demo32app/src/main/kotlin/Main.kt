@@ -29,6 +29,9 @@ fun App() {
             Row {
                 Mod5AppFace()
             }
+            Row {
+                Mod6AppFace()
+            }
         }
     }
 }
