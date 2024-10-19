@@ -11,6 +11,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import com.example.tut2demo32mod5.Mod5AppFace
+import com.example.tut2demo32mod6.Mod6AppFace
 
 @Composable
 @Preview

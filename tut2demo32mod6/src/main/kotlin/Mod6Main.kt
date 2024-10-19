@@ -1,3 +1,6 @@
+
+package com.example.tut2demo32mod6
+
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
