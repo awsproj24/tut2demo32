@@ -8,10 +8,14 @@ plugins {
 
 group = "com.example.tut2.tut2demo32mod6grp"
 version = "1.0-SNAPSHOT"
+val ktor_version: String by project
 
 repositories {
     mavenCentral()
     maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+
+    maven("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
+
     google()
 }
 
@@ -21,6 +25,9 @@ dependencies {
     // (in a separate module for demo project and in testMain).
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
+
+    implementation("io.ktor:ktor-client-core:$ktor_version")
+    implementation("io.ktor:ktor-client-cio:$ktor_version")
 }
 
 compose.desktop {
